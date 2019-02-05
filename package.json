@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-4920",
+  "version": "1.0.0",
+  "description": "https://github.com/nuxt/nuxt.js/issues/4920",
+  "author": "Atinux",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt build && nuxt start",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "nuxt": "^2.4.0",
+    "@nuxtjs/axios": "^5.0.0"
+  },
+  "keywords": []
+}
